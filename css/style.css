@@ -1,0 +1,279 @@
+.sitecolor{
+    color: #FF695F !important; 
+}
+.sitecolor2{
+    color: #ff6a5f57 !important; 
+}
+img{
+    object-fit: cover;
+}
+.sitebgcolor{
+    background-color: #FF695F;
+    color: white !important;
+    padding: 5px 0 !important;
+    font-weight: normal !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+/* ------------------ nav ------------------------------------ */
+.nav{
+    background-color: #FAFAFA;
+}
+.nav a{
+    color: black;
+    font-weight: bold;
+    padding: 10px 21px !important;
+    font-size: smaller !important;
+}
+/* --------------------- welcome------------------------------- */
+.welcomeimgcont1{
+    background-image: url(../images/baner-dec-left.png);
+    background-repeat: no-repeat;
+    /* padding: 135px 183px 0px 283px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.welcomeImgContainer{
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.welcomeicon{
+    padding: 10px !important;
+}
+/* --------------------------- services-------------------------------------- */
+.services{
+    background-image: url(../images/services-left-dec.png);
+    background-position: 0px 0px ;
+    background-repeat: no-repeat;
+    background-size: 268px 363px;
+}
+.pagination{
+    justify-content: center;
+}
+.row{
+justify-content: space-evenly 
+}
+/* ------------------------------------ */
+.carousel-item{
+    max-height: 450px;
+}
+.carselsec{
+    width: 90% !important;
+    margin: auto;
+}
+.carselsec img{
+    width: 24%;
+}
+/* --------------------------------------------------------- */
+.portfolio{
+    background-image: url(../images/portfolio-left-dec.png);
+    background-repeat: no-repeat;
+    background-size: 250px 200px;
+    background-position: 116px 38px;
+    /* background-position: 10px left; */
+
+}
+.cardcolor{
+    color: #a19c9c;
+    padding: 10px !important;
+}
+.planscard .card{
+    border-radius: 20px;
+    box-shadow: #8080806b 3px 3px 17px 3px;
+}
+.plansbg2{
+background-image: url(../images/services-left-dec.png);
+background-repeat: no-repeat;
+background-position: right ;
+}
+.plans{
+    background-image: url(../images/tables-left-dec.png );
+    background-repeat: no-repeat;
+}
+.planscard1 .card{background-image: url(../images/first-plan-bg.png); background-repeat: no-repeat;}
+.planscard2 .card{background-image: url(../images/second-plan-bg.png); background-repeat: no-repeat;
+background-position: 0px 0px;background-size: 330px 460px}
+.planscard3 .card{background-image: url(../images/third-plan-bg.png); background-repeat: no-repeat; background-size: 330px 460px}
+
+
+
+/* ------------------------------------------------------------------------------------ */
+
+.subscribe{
+    background-image: url(../images/subscribe-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 276px;
+    margin: auto;
+}
+.subscribebg{
+    background-image: url(../images/subscribe-dec.png);
+    height: 276px;
+
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.subscribecont{
+    height: 276px;
+  
+}
+.subscribe input{
+    border: none; 
+    width: 40%;
+
+    
+}
+
+.subscribeinput{
+    border-right: 1px solid #DEE2E6 !important;
+
+}
+/* -------------------------- vidoes--------------------------------------- */
+.vidoes{
+    background-image: url(../images/videos-left-dec.png);
+    background-repeat: no-repeat;
+    
+}
+.vidoesbg{
+    background-image: url(../images/videos-right-dec.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.vidoesframe iframe{
+    border-radius: 15px;
+}
+.vidoes1{
+    background-image: url(../images/hover-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.vidoes2{
+    background-image: url(../images/video-thumb-02.png);
+    background-repeat: no-repeat;
+        background-size: cover;
+          border-radius: 10px;
+
+}
+.vidoes3{
+    background-image: url(../images/video-thumb-03.png);
+    background-repeat: no-repeat;
+        background-size: cover;
+            border-radius: 10px;
+
+
+}
+.vidoes4{
+    background-image: url(../images/video-thumb-04.png);
+    background-repeat: no-repeat;
+        background-size: cover;
+    border-radius: 10px;
+
+}
+.vidoesyoutube{
+    background-image: url(../images/hover-bg.png);
+    background-repeat: no-repeat;
+        background-size: cover;
+    border-radius: 10px;
+
+}
+.vidoes2 div{
+
+    background-image: url(../images/hover-bg.png);
+    background-repeat: no-repeat;
+        background-size: cover;
+    border-radius: 10px;
+}
+.vidoes3 div{
+    background-image: url(../images/hover-bg.png);
+    background-repeat: no-repeat;
+        background-size: cover;
+    border-radius: 10px;  
+}
+.vidoes4 div{
+    background-image: url(../images/hover-bg.png);
+    background-repeat: no-repeat;
+        background-size: cover;
+    border-radius: 10px;
+}
+/* -------------------------------------------------------------------------------- */
+.contactbg{
+    background-image: url(../images/contact-form-bg.png);
+    background-repeat: no-repeat;
+    background-size: 660px 558px;
+}
+.contact input{
+    width: 100%;
+    border: none;
+    border-bottom: #D6F0FC solid 1px;
+    height: 75px;
+}
+.contact input::placeholder{
+    margin: 10px;
+}
+.contactform{
+    margin: 100px 50px !important;
+}
+.contact{
+    background-image: url(../images/contact-left-dec.png);
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+.contact1{
+    background-image: url(../images/contact-dec.png);
+    background-repeat: no-repeat;
+    background-position: right 300px;
+}
+::placeholder{
+    padding: 10px;
+
+}
+.footer input::placeholder{
+    color: white;
+}
+.footericon{
+    padding-left: 18px;
+}
+.up{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.up a {
+    color: #0798bc46;
+    font-size: 60px;
+}
+
+.up a:hover{
+    color: #0798bc;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition:all 3s;
+}
