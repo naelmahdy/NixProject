@@ -237,7 +237,7 @@ background-position: 0px 0px;background-size: 330px 460px}
 .contact{
     background-image: url(../images/contact-left-dec.png);
     background-repeat: no-repeat;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 .contact1{
     background-image: url(../images/contact-dec.png);
@@ -258,8 +258,8 @@ background-position: 0px 0px;background-size: 330px 460px}
     width: 80px;
     height: 80px;
     position: fixed;
-    bottom: 30px;
-    right: 50px;
+    bottom: 2%;
+    right: 2%;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -277,3 +277,66 @@ background-position: 0px 0px;background-size: 330px 460px}
     transform: scale(1.1);
     transition:all 3s;
 }
+.verticalH{
+    height: 100vh;
+}
+button:hover{
+    background-color: rgb(255,105,95) !important;
+    color: white !important;
+}
+.nav-link:hover{
+    color: rgb(255,105,95) !important;
+}
+.nLink:hover{
+    background-color: rgb(13,110,253) !important;
+    color: white !important;  
+}
+.HovLink:hover{
+background-color: rgb(255,105,95) !important;
+color: white !important;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .nLink{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .phoneAndEmail{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .nLink{
+        width: 35%;
+        margin: auto;
+        margin-bottom: 25px;
+
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .nLink{
+        width: 35%;
+        margin: auto;
+        margin-bottom: 25px;
+
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
