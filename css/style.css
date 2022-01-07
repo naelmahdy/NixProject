@@ -280,10 +280,7 @@ background-position: 0px 0px;background-size: 330px 460px}
 .verticalH{
     height: 100vh;
 }
-button:hover{
-    background-color: rgb(255,105,95) !important;
-    color: white !important;
-}
+
 .nav-link:hover{
     color: rgb(255,105,95) !important;
 }
